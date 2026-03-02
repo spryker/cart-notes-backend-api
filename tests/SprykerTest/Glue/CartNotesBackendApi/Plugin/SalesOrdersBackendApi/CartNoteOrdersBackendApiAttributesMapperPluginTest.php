@@ -73,9 +73,6 @@ class CartNoteOrdersBackendApiAttributesMapperPluginTest extends Unit
         $this->assertSame($expectedOrdersBackendApiAttributes, $resultOrdersBackendApiAttributes);
     }
 
-    /**
-     * @return array
-     */
     protected function getMapOrderTransfersToOrdersBackendApiAttributesTransferDataProvider(): array
     {
         return [

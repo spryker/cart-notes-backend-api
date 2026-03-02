@@ -13,9 +13,6 @@ use Spryker\Glue\Kernel\Backend\AbstractFactory;
 
 class CartNotesBackendApiFactory extends AbstractFactory
 {
-    /**
-     * @return \Spryker\Glue\CartNotesBackendApi\Processor\Mapper\CartNotesOrdersBackendApiAttributesMapperInterface
-     */
     public function createCartNotesOrdersBackendApiAttributesMapper(): CartNotesOrdersBackendApiAttributesMapperInterface
     {
         return new CartNotesOrdersBackendApiAttributesMapper();
